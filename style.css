@@ -1,0 +1,392 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*------------------------- Header-------------------------------- */
+.navbar{
+    position: sticky;
+}
+.header_right{
+    position: absolute;
+    right: 30px;
+}
+.nav-item a{
+    font-size: 18.5px;
+    color: #9d9d9d;
+    margin: 0px 8px;
+}
+.nav-item a:hover{
+    color: #e11a30;
+}
+
+
+
+
+/* ------------------------App Features Section------------------------- */
+.app_features{
+    margin: 70px 0px;
+}
+.app_features img{
+    width: 90%;
+}
+.app_features h1{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #E11A30;
+}
+.feature_box{
+    text-align: center;
+    margin: 30px 0px;
+}
+.feature_box h3{
+    color: #555;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.feature_box p{
+    color: #555;
+    font-weight: 300;
+    font-size: 17px;
+}
+.feature_box i{
+    color: #e11a30;
+}
+
+
+
+
+/* -------------------------App install Section----------------------------- */
+.app_install_sec{
+    background-color: #E11A30;
+    padding: 50px 0px;
+}
+/* first Coloum */
+.app_install_sec img{
+    text-align: center;
+}
+.app_install_content1{
+    text-align: center;
+}
+/* Second Coloumn */
+.app_install_content2{
+    margin-left: 100px;
+}
+.app_install_content2 h1{
+    padding: 40px 0px 10px 0px;
+    color: white;
+    font-weight: 400;
+}
+.app_install_content2 p{
+    color: white;
+    font-size: 19px;
+}
+/* buttons */
+.app_btn1{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: #e11a30;
+    background-color: white;
+    font-weight: 500;
+    outline: none;
+}
+.app_btn1:hover{
+    opacity: .7;
+}
+.app_btn2{
+    padding: 10px 30px;
+    border: 2px solid white;
+    border-radius: 30px;
+    text-transform: uppercase;
+    background-color: #ec4154;
+    color: white;
+    font-weight: 500;
+    outline: none;
+}
+.btn1{
+    margin: 10px 0px 10px 0px;
+}
+.btn2{
+    margin-left: 10px;
+}
+.btn3{
+    margin: 50px 0px 10px 0px;
+}
+.btn4{
+    margin: 50px 0px 10px 5px;
+}
+/* hr */
+hr{
+    background-color: white;
+    margin-right: 30px;
+}
+/* input Section */
+.input_sec{
+    padding: 8px 10px 8px 20px;
+    width: 470px;
+    margin: 10px 0px 0px 0px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+}
+.send_btn{
+    padding: 8px 20px;
+    border: none;
+    background-color: white;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+
+
+
+
+/* -----------------------------Ambulance Section------------------------ */
+.ambulance_sec{
+    margin: 50px 0px;
+}
+.ambulance_sec  h2{
+    text-align: center;
+    font-size: 38px;
+    color: #e11a30;
+    font-weight: 400;
+}
+.ambulance_box{
+    text-align: center;
+    margin: 30px 20px;
+}
+.ambulance_sec_btn{
+    text-align: center;
+}
+.ambulance_btn{
+    padding: 10px 25px;
+    border: none;
+    background: #e11a30 none repeat scroll 0 0;
+    color: white;
+    border-radius: 50px;
+    font-weight: 600;
+    outline: none;
+}
+.ambulance_btn:hover{
+    opacity: .7;
+}
+
+
+
+
+
+/* -----------------------------Work Section---------------------------- */
+.work_sec{
+    margin: 50px 0px;
+}
+.work_sec h2{
+    text-align: center;
+    font-size: 38px;
+    color: #e11a30;
+    font-weight: 400;
+}
+.work_box{
+    text-align: center;
+    margin: 30px 100px;
+}
+.work_sec_btn{
+    text-align: center;
+}
+.work_btn{
+    padding: 10px 25px;
+    border: none;
+    background: #e11a30 none repeat scroll 0 0;
+    color: white;
+    border-radius: 50px;
+    font-weight: 600;
+    outline: none;
+}
+.work_btn:hover{
+    opacity: .6;
+}
+
+
+
+
+/* ------------------------Call Us Section------------------- */
+.call_us_sec{
+    height: auto;
+    margin: 20px 0px 0px 0px;
+    padding: 50px 0px;
+    width: 100%;
+    background-color: #E11A30;
+}
+.call_us_content1{
+    text-align: right;
+}
+.call_us_content1 h2{
+    font-size: 35px;
+    color: white;
+    font-weight: 500;
+}
+.call_us_content2{
+    text-align: left;
+}
+.call_us_content2 button{
+    border: none;
+    padding: 10px 15px;
+    background-color: white;
+    color: #837070;
+    font-weight: 400;
+    border-radius: 10px;
+    box-shadow: 0px 4px 1px rgb(175 168 168);
+}
+
+
+
+
+/* ------------------------Footer Pages Section------------------- */
+/* Links */
+.footer_pages_sec{
+    text-align: center;
+    padding: 80px 0px;
+    background-color: #FFFFC9;
+}
+.fp_box{
+    margin: 20px 0px;
+}
+.footer_pages_sec h2{
+    font-size: 25px;
+}
+.footer_pages_sec a{
+    text-decoration: none;
+    color: #E11A30 ;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer_pages_sec a:hover{
+    text-decoration: none;
+    color: #E11A30 ;
+}
+
+/* Follow */
+.footer_follow_sec{
+    background-color: #FFFFC9;
+    padding-bottom: 50px;
+}
+.ff_col1 h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+.fa-facebook{
+    color: #3B5998;
+    cursor: pointer;
+}
+.fa-twitter-square{
+    color: #49addf;
+    cursor: pointer;
+}
+.fa-whatsapp-square{
+    cursor: pointer;
+    color: #62c940;
+}
+.fa-linkedin{
+    cursor: pointer;
+    color: #2897b6;
+}
+.fa-pinterest-square{
+    cursor: pointer;
+    color: #da3728;
+}
+.ff_col2{
+    text-align: center;
+}
+.ff_col2 h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+.ff_col2 img{
+    width: 200px;
+    margin: 0px 10px;
+}
+
+/* Copyright Text */
+.footer_text_sec{
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+}
+.footer_text_sec p{
+    font-size: 18px;
+}
+.footer_text_sec a{
+    color: #E11A30;
+}
+.footer_text_sec a:hover{
+    color: #E11A30;
+    text-decoration: none;
+}
+
+
+
+
+
+/* Media Queries */
+@media only screen and (max-width: 772px) {
+    .input_sec{
+        width: 300px;
+    }
+    .work_box{
+        margin: 30px 20px;
+    }
+    .send_btn {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .call_us_content1{
+        text-align: center;
+    }
+    .call_us_content2{
+        text-align: center;
+    }
+  }
+@media only screen and (max-width: 525px) {
+    .input_sec{
+        width: 200px;
+    }
+    .send_btn{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .app_install_content2{
+        margin-left: 10px;
+        text-align: center;
+    }
+  }
+@media only screen and (max-width: 423px) {
+    .app_install_content2{
+        margin-left: 10px;
+    }
+    .ff_col2 img{
+        width: 100px;
+        margin: 0px 0px;
+    }
+  }
+@media only screen and (max-width: 415px) {
+    .app_install_sec img{
+        width: 250px;
+    }
+  }
+@media only screen and (max-width: 333px) {
+    .btn2 {
+        margin-left: 0px;
+    }
+  }
+@media only screen and (max-width: 280px) {
+    .input_sec {
+        width: 100%;
+    }
+    .send_btn{
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+  }
